@@ -3,10 +3,12 @@
 :root {
     --dark-blue: hsl(233, 47%, 7%);
     --second-blue: hsl(244, 38%, 16%);
-    --soft-violer:  hsl(277, 64%, 61%);
+    --soft-violet:  hsl(277, 64%, 61%);
     --heading-color: hsl(0, 0%, 100%);
     --main-color: hsla(0, 0%, 100%, 0.75);
     --sub-titles-color : hsla(0, 0%, 100%, 0.6);
+    --font-primary: 'Inter', sans-serif;
+    --font-secundary: 'Lexend Deca', sans-serif;
 }
 
 * {
@@ -17,10 +19,7 @@
 
 body {
     background-color: var(--dark-blue);
-}
-
-img {
-    width: 100%;
+    font-family: var(--font-primary);
 }
 
 
@@ -44,10 +43,17 @@ img {
 .card {
     margin-top: 20px;
     background-color: var(--second-blue);
+    margin-bottom: 60px;
+    
 }
 
 .image__container {
-    filter: var(--soft-violer);
+    background: 
+    linear-gradient(hsla(277, 64%, 61%, 0.5), hsla(277, 64%, 61%, 0.5)), url(../images/image-header-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
 }
 
 .information {
@@ -55,7 +61,12 @@ img {
     text-align: center;
     display: flex; 
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+}
+
+.information .title span {
+    color: var(--soft-violet);
 }
 
 .information .title {
@@ -72,20 +83,19 @@ img {
 }
 
 .information__secundary--one {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .information__secundary--one > h3 {
-    font-size: 25px;
+    font-size: 23px;
     color: var(--heading-color);
-    margin-bottom: 2px;
-
-   
+    margin-bottom: 4px;
 }
 
 .information__secundary--one p {
-    font-size: 15px;
+    font-size: 13px;
     color: var(--main-color);
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: var(--font-secundary);
 }
