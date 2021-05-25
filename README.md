@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![My Code](./images/index.png)
+![My Code](card-main/images/index.png)
 
 
 ### Links
 
-- Solution URL: [card-component](https://https://anfer-code.github.io/card-component/card-main/index.html)
+- Solution URL: [card-component](https://anfer-code.github.io/card-component/card-main/index.html)
 
 ## My process
 
