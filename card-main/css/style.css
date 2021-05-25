@@ -79,13 +79,13 @@ body {
 }
 
 .information__secundary--one > h3 {
-    font-size: 23px;
+    font-size: 25px;
     color: var(--heading-color);
     margin-bottom: 4px;
 }
 
 .information__secundary--one p {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--main-color);
     text-transform: uppercase;
     font-weight: 400;
@@ -102,10 +102,10 @@ body {
     .card {
         display: flex;
         flex-direction: row-reverse;
-        height: 350px;
+        height: 500px;
     }
     .image__container {
-        height: 350px;
+        height: 500px;
         width: 50%;
     }
     .information {
@@ -118,6 +118,10 @@ body {
         display: flex;
         justify-content: space-between;
         width: 100%;
+    }
+
+    .information__secundary:last-child {
+        padding-right: 80px;
     }
 
     .information__secundary--one h3 {
