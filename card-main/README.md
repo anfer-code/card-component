@@ -57,7 +57,7 @@ This code was the most important this time, thanks to it, I was able to complete
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/es/docs/Web/CSS/background) - This helped me understand how to use an image and a colored background at the same time.
+- [Background](https://developer.mozilla.org/es/docs/Web/CSS/background) - This helped me understand how to use an image and a colored background at the same time.
 
 
 ## Author
