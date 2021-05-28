@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My Code](card-main/images/index.png)
+![My Code](card-main/images/anfer-code.png)
 
 
 ### Links
